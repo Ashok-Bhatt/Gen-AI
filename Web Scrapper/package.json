@@ -1,0 +1,23 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "@sparticuz/chromium-min": "^138.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "puppeteer": "^24.4.0",
+    "puppeteer-core": "^24.4.0"
+  }
+}
